@@ -92,32 +92,28 @@ h1 {
 
 .options {
     width: 90%;
-    height: 96px;
+    height: 120px;
     background-color: #eee;
     border-radius: 15px;
-}
-
-.section-one,.section-two {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 6px;
 }
 
 .item {
     font-size: large;
-    /* width: 186px; */
-    width: 60%;
-    height: 33px;
+    width: 165px;
+    height: 24px;
     display: flex;
     align-items: center;
     justify-content: start;
-    margin-top: 10px;
-    padding-left: 15px;
     /* background-color: red; */
 }
 
 .item label {
-    padding-left: 6px;
+    margin-left: 6px;
 }
 
 .checkbox {
@@ -168,7 +164,7 @@ h1 {
     }
 
     .container {
-        width: 90%;
+        width: 83%;
     }
 
     .item {
