@@ -2,5 +2,5 @@
 
 ---
 
-## Live Demo
+## Demo
 [live demo](https://mahanahmadnia.github.io/Password-Generator/)

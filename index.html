@@ -20,8 +20,8 @@
 
         <h1>Password Generator</h1>
 
-        <div class="display">
-            <input type="text" id="input" placeholder="Password" readonly>
+        <div class="display-section">
+            <input type="text" id="display" placeholder="Password" readonly>
 
             <img src="./images/content_copy_36dp_000000_FILL0_wght400_GRAD0_opsz40.png" alt="copy password" id="copy">
         </div>
@@ -30,33 +30,37 @@
         <!-- Range -->
 
         <div class="range">
-            <input type="range" id="slider" min="6" max="33" value="21">
-            <span id="output">21</span>      
+            <input type="range" id="slider" min="6" max="24" value="15">
+            <span id="output">15</span>      
         </div>
 
 
         <!-- Options -->
 
         <div class="options">
-            
-            <div class="item">
-                <input type="checkbox" class="checkbox" id="uppercase">
-                <label for="Uppercase">Uppercase(A_Z)</label>
+
+            <div class="section-one">
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="uppercase">
+                    <label for="Uppercase">Uppercase(A_Z)</label>
+                </div>
+
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="lowercase">
+                    <label for="Lowercase">Lowercase(a_z)</label>
+                </div>
             </div>
 
-            <div class="item">
-                <input type="checkbox" class="checkbox" id="lowercase">
-                <label for="Lowercase">Lowercase(a_z)</label>
-            </div>
-
-            <div class="item">
-                <input type="checkbox" class="checkbox" id="numbers">
-                <label for="Numbers">Numbers(0_9)</label>
-            </div>
-                
-            <div class="item">
-                <input type="checkbox" class="checkbox" id="symbols">
-                <label for="Symbols">Symbols(!@#...)</label>
+            <div class="section-two">
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="numbers">
+                    <label for="Numbers">Numbers(0_9)</label>
+                </div>
+                    
+                <div class="item">
+                    <input type="checkbox" class="checkbox" id="symbols">
+                    <label for="Symbols">Symbols(!@#...)</label>
+                </div>
             </div>
         </div>
 
