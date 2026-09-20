@@ -7,9 +7,8 @@ Users can generate random passwords with customizable length and character types
 
 ## Screenshot
 
-![Password Generator](./images/)
-![Password Generator](./images/)
-![Password Generator](./images/)
+![Password Generator](./images/Screenshot%20From%202026-09-20%2011-57-20.png)
+![Password Generator](./images/Screenshot%20From%202026-09-20%2011-58-19.png)
 
 ## Demo
 

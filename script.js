@@ -17,13 +17,13 @@ const symbols = document.getElementById('symbols');
 // Button
 const btn = document.getElementById('btn');
 
-// Range
+// Range Value
 slider.addEventListener('input', () => {
   output.textContent = slider.value;
 });
 
 
-// Create Password
+// Generate Password
 btn.addEventListener('click', () => {
 
   let characters = "";
@@ -55,7 +55,7 @@ btn.addEventListener('click', () => {
     return;
   }
 
-  // Create password
+  // Generate Characters
   let password = "";
 
   for (let i = 0; i < Number(slider.value); i++) {
@@ -76,5 +76,5 @@ copy.addEventListener('click', () => {
   if (display.value !== "") {
     navigator.clipboard.writeText(display.value);
   }
-
+  
 });
