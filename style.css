@@ -130,6 +130,7 @@ h1 {
 .checkbox {
     width: 21px;
     height: 21px;
+    accent-color: var(--primary-color);
 }
 
 
